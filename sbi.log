@@ -1,0 +1,27 @@
+2024-03-06 19:57:07,502 [main] INFO  c.e.d.ProjectLoggingInSpringApplication            - Starting ProjectLoggingInSpringApplication using Java 17.0.10 with PID 13616 (D:\STS_Workspace\Project_Logging_InSpring\target\classes started by vanit in D:\STS_Workspace\Project_Logging_InSpring)
+2024-03-06 19:57:07,503 [main] INFO  c.e.d.ProjectLoggingInSpringApplication            - No active profile set, falling back to 1 default profile: "default"
+2024-03-06 19:57:08,044 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8668 (http)
+2024-03-06 19:57:08,052 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8668"]
+2024-03-06 19:57:08,053 [main] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-03-06 19:57:08,053 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-06 19:57:08,090 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-03-06 19:57:08,090 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 554 ms
+2024-03-06 19:57:08,296 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8668"]
+2024-03-06 19:57:08,300 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-06 19:57:08,312 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger          - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-06 19:57:08,326 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8668 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8668 or configure this application to listen on another port.
+
